@@ -1,7 +1,6 @@
-from keras import backend as K
-from keras.models import Model
 from keras.layers import (BatchNormalization, Conv1D, Dense, Input,
-                          TimeDistributed, Activation, Bidirectional, SimpleRNN, GRU, LSTM, MaxPooling1D)
+                          TimeDistributed, Activation, Bidirectional, SimpleRNN, GRU, MaxPooling1D)
+from keras.models import Model
 
 
 def simple_rnn_model(input_dim, output_dim=29):
